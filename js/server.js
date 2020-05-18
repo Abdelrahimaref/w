@@ -54,11 +54,11 @@ $('.question--1 label:not([data-error]), .question--2 label').click(function() {
 
     setTimeout(function() {
         currentQ.fadeOut(300);
-    }, 500);
+    }, 1000);
 
     setTimeout(function() {
         nextQ.fadeIn(500);
-    }, 800);
+    }, 1000);
 });
 
 $('[data-error]').click(function() {
